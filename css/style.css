@@ -27,7 +27,7 @@ li {
 }
 
 .bg-header{
-  min-height: 600px;
+  min-height: 700px;
   background-image: url(../img/bg-home-1-d54581d7.jpg);
 }
 
@@ -46,12 +46,37 @@ li {
   font-size: 25px;
 }
 
+h3{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
 
 .my_padding-header{
   padding-top: 100px;
 }
 
-.my_bg-color{
+.my_style-form{
   background: white;
   border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+span.display_block{
+  display:block;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.my_style-button{
+  border: 1px solid rgba(0,105,255,.2);
+  color:#031B4E;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my_style-button i{
+  margin-right:35px;
 }
