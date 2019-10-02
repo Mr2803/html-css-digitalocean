@@ -114,3 +114,21 @@ span.display_block{
 .my_style-section2 p{
   display:inline-block;
 }
+
+/* terza sezione */
+.my_style-section3{
+  min-height: 500px; /* DEBUG:  */
+  text-align: center;
+  background: #F3F5F9;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.my_style-section3 img{
+  max-width: 100%;
+}
+
+/* quarta sezione */
+.my_style-section4{
+  text-align: center;
+}
