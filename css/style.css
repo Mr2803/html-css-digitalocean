@@ -30,3 +30,28 @@ li {
   min-height: 600px;
   background-image: url(../img/bg-home-1-d54581d7.jpg);
 }
+
+.bg-header h1,
+.bg-header p{
+  color:white;
+}
+
+.bg-header h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.bg-header p{
+  opacity:.8;
+  font-size: 25px;
+}
+
+
+.my_padding-header{
+  padding-top: 100px;
+}
+
+.my_bg-color{
+  background: white;
+  border-radius: 10px;
+}
