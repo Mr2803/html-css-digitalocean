@@ -147,3 +147,23 @@ span.display_block{
   text-align: center;
   min-height: 400px;
 }
+
+/* settima sezione */
+.my_style-section7{
+background-image: url(../img/bg-home-1-d54581d7.jpg);
+ min-height:250px;
+ text-align: center;
+ color:white;
+}
+
+.my_style-section7 .my_style-button{
+  color:#0069ff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* footer */
+.my_style-footer{
+  background: #010E28;
+  color:white;
+}
