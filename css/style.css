@@ -11,7 +11,7 @@ li {
   display:inline-block;
 }
 
-
+/* header */
 .row .col-lg-3 img{
   width:40%;
 }
@@ -79,4 +79,16 @@ span.display_block{
 
 .my_style-button i{
   margin-right:35px;
+}
+/* /header */
+
+/* prima sezione */
+.size{
+  width: 80%;
+  max-width: 80%;
+}
+
+.my_style-section1{
+  text-align: center;
+  padding:30px;
 }
