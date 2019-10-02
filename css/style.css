@@ -140,3 +140,10 @@ span.display_block{
   min-height: 500px;
   background: #031b4e url(../img/data-center-map-20321538.svg);
 }
+
+/* sesta sezione */
+
+.my_style-section6{
+  text-align: center;
+  min-height: 400px;
+}
