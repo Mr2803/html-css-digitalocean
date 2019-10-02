@@ -7,7 +7,7 @@ ul{
   list-style-type: none;
 }
 
-li {
+.my_style-header li {
   display:inline-block;
 }
 
@@ -84,11 +84,33 @@ span.display_block{
 
 /* prima sezione */
 .size{
-  width: 80%;
-  max-width: 80%;
+  vertical-align: middle;
+  width: 100%;
+  max-width: 100%;
+
+
 }
 
 .my_style-section1{
   text-align: center;
   padding:30px;
+}
+
+.my_style-section1 ul {
+  list-style-type: none;
+}
+
+.my_style-section1 ul li{
+  display:inline-block;
+  width:calc((100% / 6) - 5px);
+
+}
+
+/* seconda sezione */
+.my_style-section2{
+  text-align: center;
+}
+
+.my_style-section2 p{
+  display:inline-block;
 }
