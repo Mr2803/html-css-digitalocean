@@ -167,3 +167,11 @@ background-image: url(../img/bg-home-1-d54581d7.jpg);
   background: #010E28;
   color:white;
 }
+
+.my_style-footer ul.social{
+  list-style-type: none;
+}
+
+.my_style-footer ul.social li{
+ display: inline-block;
+}
