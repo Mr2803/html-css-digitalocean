@@ -132,3 +132,11 @@ span.display_block{
 .my_style-section4{
   text-align: center;
 }
+
+/* quinta sezione */
+
+.my_style-section5{
+  text-align: center;
+  min-height: 500px;
+  background: #031b4e url(../img/data-center-map-20321538.svg);
+}
