@@ -123,12 +123,64 @@ span.display_block{
   }
 
 /* seconda sezione */
+
+
 .my_style-section2{
   text-align: center;
 }
 
-.my_style-section2 p{
+.my_style-section2 h2{
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.my_style-margin-top{
+  margin-top: 30px;
+}
+
+.my_style-ul-li{
+  text-align: left;
+  font-size: 18px;
+}
+
+.my_style-ul-li ul li{
+  margin-bottom: 15px;
+}
+
+.my_style-ul-li ul li:first-child{
+  color:#031B4E;
+  font-weight: bold;
+}
+
+.my_style-ul-li ul li:not(:first-child){
+  opacity:.7;
+}
+
+.my_style-section2 p.subtitle{
   display:inline-block;
+  font-size: 20px;
+  max-width: 60%;
+  opacity: .8
+}
+
+.my_style-section2 img{
+  width: 18%;
+}
+
+.my_style-text{
+  text-align: left;
+}
+
+.my_style-text h6{
+  font-weight: bold;
+  font-size: 18px;
+  color:#031B4E;
+  margin-bottom: 15px;
+}
+
+.my_style-text p{
+  font-size: 17px;
+  opacity: .7;
 }
 
 /* terza sezione */
