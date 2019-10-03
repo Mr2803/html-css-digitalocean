@@ -52,6 +52,14 @@ h3{
   padding-bottom: 20px;
 }
 
+.my_style-ul{
+  display:none;
+}
+
+.white_logo{
+  max-width: 150%;
+}
+
 .my_padding-header{
   padding-top: 100px;
 }
@@ -85,10 +93,8 @@ span.display_block{
 /* prima sezione */
 .size{
   vertical-align: middle;
-  width: 100%;
+  width: 90%;
   max-width: 100%;
-
-
 }
 
 .my_style-section1{
@@ -103,8 +109,18 @@ span.display_block{
 .my_style-section1 ul li{
   display:inline-block;
   width:calc((100% / 6) - 5px);
-
 }
+
+.my_style-section1 h5{
+  font-weight: bold;
+  opacity:0.6;
+}
+
+.my_style-section1 a{
+  color:#0069ff;
+  font-size: 17px;
+  font-weight: bold;
+  }
 
 /* seconda sezione */
 .my_style-section2{
@@ -174,4 +190,42 @@ background-image: url(../img/bg-home-1-d54581d7.jpg);
 
 .my_style-footer ul.social li{
  display: inline-block;
+}
+
+
+/* media query */
+
+
+
+@media screen and (max-width: 991px){
+  /* header */
+  .row.my_padding-header{
+    margin-bottom: 50px;
+  }
+
+  .my_style-ul{
+    display:inline-block;
+  }
+
+  .my_style-ul li{
+    display:inline-block;
+    max-width: 20%;
+  }
+
+  .my_style-ul li:first-child{
+    margin-right: 70%;
+  }
+
+  .my_style-ul i{
+    font-size: 25px;
+    vertical-align: middle;
+    display:inline-block;
+  }
+  /* /header */
+
+  /* prima sezione */
+  .my_style-section1 ul li{
+    display:inline-block;
+    width:calc((100% / 3) - 5px);
+  }
 }
