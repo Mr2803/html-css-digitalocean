@@ -243,6 +243,36 @@ p.subtitle{
   background: #031b4e url(../img/data-center-map-20321538.svg);
 }
 
+.my_style-section5 h3{
+  margin-top: 80px;
+  font-size: 35px;
+  max-width: 100%;
+}
+
+.table{
+  text-align: left;
+  color:white;
+  margin-top: 50px;
+}
+
+
+.table td{
+  opacity:.5;
+  font-size: 15px;
+}
+
+tbody>tr >th.my_first,
+tbody>tr >td.my_first{
+  border:none;
+}
+
+.table td a{
+  opacity:none;
+  text-decoration: none;
+  color: #00d7d2;
+  font-weight: bold;
+}
+
 /* sesta sezione */
 
 .my_style-section6{
@@ -317,11 +347,10 @@ background-image: url(../img/bg-home-1-d54581d7.jpg);
 }
 
 @media screen and (max-width: 766px){
+  /* quarta sezione */
   .my_style-section4 img{
     max-width: 12%;
   }
 
-  /* .my_style-section4 p{
-    max-width: 100%;
-  } */
+
 }
