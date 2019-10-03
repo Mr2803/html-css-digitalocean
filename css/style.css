@@ -40,7 +40,11 @@ padding-top: 10px;
 }
 
 .my_style-bot-nav li:last-child{
-  margin-left: 30%;
+  margin-left:28%;
+  border:1px solid #0069ff;
+  color:#0069ff;
+  padding: 5px 10px;
+  border-radius: 3px;
 }
 
 .my_style-bot-nav li:not(:first-child),
