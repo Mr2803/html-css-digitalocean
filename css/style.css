@@ -9,6 +9,16 @@ ul{
 
 .my_style-header li {
   display:inline-block;
+  font-weight: bold;
+}
+
+.my_style-header .my_style-top-nav li:first-child{
+  background-color: #00D7D2;
+  color:black;
+  opacity: .7;
+  padding:3px 10px;
+  border-radius: 3px;
+  font-size: 10px;
 }
 
 /* header */
