@@ -1,12 +1,19 @@
+/* generali */
 .debug{
   border:1px solid black;
 }
-
 
 ul{
   list-style-type: none;
 }
 
+h3{
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+/* header */
 .my_style-header li {
   display:inline-block;
   font-weight: bold;
@@ -21,23 +28,19 @@ ul{
   font-size: 10px;
 }
 
-/* header */
-
 .row.my_border{
   padding:5px;
-  position:fixed;
   top:0;
   width: 100%;
   background:white;
-
 }
 
 .pos_fix{
   z-index: 10;
+  position:fixed;
 }
 
 .my_style-bot-nav.pos_fix{
-  position:fixed;
   top:42px;
   left:0;
   right:0;
@@ -52,7 +55,7 @@ ul{
 }
 
 .row.my_style-bot-nav{
-  padding:15px;
+  padding:10px;
 }
 
 .row.my_style-bot-nav ul{
@@ -65,11 +68,6 @@ border:1px solid #0069ff;
 color:#0069ff;
 padding: 5px 10px;
 border-radius: 3px;
-}
-
-
-.my_border{
-  border-bottom:1px solid grey;
 }
 
 .bg-header{
@@ -93,15 +91,6 @@ border-radius: 3px;
   font-size: 25px;
 }
 
-h3{
-  font-size: 30px;
-  font-weight: bold;
-  padding-bottom: 20px;
-}
-
-.my_style-mobile-nav{
-  display:none;
-}
 
 .white_logo{
   max-width: 150%;
@@ -245,10 +234,6 @@ p.subtitle{
   padding-bottom: 100px;
 }
 
-.my_style-section3 h3{
- font-size: 35px;
-}
-
 .my_style-section3 img{
   max-width: 100%;
   margin-bottom: 30px;
@@ -281,9 +266,7 @@ p.subtitle{
   max-width: 100%;
 }
 
-
 /* quinta sezione */
-
 .my_style-section5{
   text-align: center;
   min-height: 500px;
@@ -292,7 +275,6 @@ p.subtitle{
 
 .my_style-section5 h3{
   margin-top: 80px;
-  font-size: 35px;
   max-width: 100%;
 }
 
@@ -301,7 +283,6 @@ p.subtitle{
   color:white;
   margin-top: 50px;
 }
-
 
 .table td{
   opacity:.5;
@@ -321,7 +302,6 @@ tbody>tr >td.my_first{
 }
 
 /* sesta sezione */
-
 .my_style-section6{
   text-align: center;
   min-height: 400px;
@@ -333,9 +313,6 @@ tbody>tr >td.my_first{
   min-height: 300px;
 }
 
-.my_style-section6 h3{
-  font-size: 35px;
-}
 
 .my_style-section6 img{
   width: 20%;
@@ -359,7 +336,6 @@ cite{
 .margin-bot{
   margin-bottom: 20px;
 }
-
 
 /* settima sezione */
 .my_style-section7{
@@ -404,7 +380,6 @@ background-image: url(../img/bg-home-1-d54581d7.jpg);
 .my_style-footer ul.social li{
  display: inline-block;
  padding-right: 15px;
-
 }
 
 .my_style-footer ul.social li a{
@@ -428,17 +403,10 @@ text-decoration: none;
 }
 
 /* media query */
-
 @media screen and (max-width:1199px){
-
   .bg-header{
     margin-top:0;
   }
-
-.my_style-mobile-nav{
-  display: inline-block;
-  width: 100%
-}
 
 .my_style-mobile-nav img{
   width: 100%;
@@ -454,8 +422,6 @@ text-decoration: none;
 
 @media screen and (max-width: 991px){
   /* header */
-
-
   .row.my_padding-header{
     margin-bottom: 50px;
   }
@@ -463,7 +429,6 @@ text-decoration: none;
   .my_style-mobile-nav{
     display:inline-block;
   }
-
   /* /header */
 
   /* prima sezione */
@@ -478,6 +443,4 @@ text-decoration: none;
   .my_style-section4 img{
     max-width: 12%;
   }
-
-
 }
