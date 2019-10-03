@@ -136,6 +136,7 @@ span.display_block{
 
 .my_style-margin-top{
   margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .my_style-ul-li{
@@ -160,7 +161,7 @@ span.display_block{
   opacity:.7;
 }
 
-.my_style-section2 p.subtitle{
+p.subtitle{
   display:inline-block;
   font-size: 20px;
   max-width: 60%;
@@ -196,8 +197,17 @@ span.display_block{
   padding-bottom: 100px;
 }
 
+.my_style-section3 h3{
+ font-size: 35px;
+}
+
 .my_style-section3 img{
   max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.subtitle.my_details{
+  font-size: 18px;
 }
 
 /* quarta sezione */
