@@ -100,7 +100,7 @@ span.display_block{
 .my_style-section1{
   text-align: center;
   padding:30px;
-  margin-bottom: 30px;
+  margin-bottom: 30px
 }
 
 .my_style-section1 ul {
@@ -135,7 +135,7 @@ span.display_block{
   margin-top: 50px;
 }
 
-.my_style-margin-top{
+.my_style-margin{
   margin-top: 30px;
   margin-bottom: 40px;
 }
@@ -185,7 +185,7 @@ p.subtitle{
 }
 
 .my_style-text p{
-  font-size: 17px;
+  font-size: 16px;
   opacity: .7;
 }
 
@@ -208,7 +208,7 @@ p.subtitle{
 }
 
 .subtitle.my_details{
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* quarta sezione */
@@ -219,6 +219,21 @@ p.subtitle{
 .my_style-section4 h3{
   margin-top: 70px;
 }
+
+.my_style-section4 img{
+  width: 18%;
+}
+
+.my_style-section4 a{
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.my_style-section4 p{
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
 
 /* quinta sezione */
 
@@ -299,4 +314,14 @@ background-image: url(../img/bg-home-1-d54581d7.jpg);
     display:inline-block;
     width:calc((100% / 3) - 5px);
   }
+}
+
+@media screen and (max-width: 766px){
+  .my_style-section4 img{
+    max-width: 12%;
+  }
+
+  /* .my_style-section4 p{
+    max-width: 100%;
+  } */
 }
