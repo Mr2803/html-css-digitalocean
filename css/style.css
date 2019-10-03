@@ -278,7 +278,41 @@ tbody>tr >td.my_first{
 .my_style-section6{
   text-align: center;
   min-height: 400px;
+  padding-bottom: 70px;
 }
+
+.my_style-section6 .container{
+  max-width: 50%;
+  min-height: 300px;
+}
+
+.my_style-section6 h3{
+  font-size: 35px;
+}
+
+.my_style-section6 img{
+  width: 20%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.my_style-section6 p{
+  font-size: 25px;
+  color: rgba(3,27,78,.7);
+  width: 100%;
+  display: inline-block;
+}
+
+cite{
+  display:block;
+  opacity:.6;
+  font-size: 18px;
+}
+
+.margin-bot{
+  margin-bottom: 20px;
+}
+
 
 /* settima sezione */
 .my_style-section7{
