@@ -100,6 +100,7 @@ span.display_block{
 .my_style-section1{
   text-align: center;
   padding:30px;
+  margin-bottom: 30px;
 }
 
 .my_style-section1 ul {
@@ -213,6 +214,10 @@ p.subtitle{
 /* quarta sezione */
 .my_style-section4{
   text-align: center;
+}
+
+.my_style-section4 h3{
+  margin-top: 70px;
 }
 
 /* quinta sezione */
