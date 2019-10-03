@@ -143,6 +143,10 @@ span.display_block{
   font-size: 18px;
 }
 
+.my_style-ul-li ul{
+  border-left: 1px solid rgba(73, 77, 82, 0.48);
+}
+
 .my_style-ul-li ul li{
   margin-bottom: 15px;
 }
