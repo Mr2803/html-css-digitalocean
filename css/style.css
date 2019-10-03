@@ -332,6 +332,21 @@ background-image: url(../img/bg-home-1-d54581d7.jpg);
 .my_style-footer{
   background: #010E28;
   color:white;
+  padding-top: 70px;
+}
+
+.my_style-footer .my_style-litem{
+  font-size: 15px;
+}
+
+.my_style-footer .my_style-litem li:first-child{
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.my_style-footer .my_style-litem li:not(:first-child){
+  opacity:.7;
+  margin-bottom: 5px;
 }
 
 .my_style-footer ul.social{
@@ -341,6 +356,13 @@ background-image: url(../img/bg-home-1-d54581d7.jpg);
 .my_style-footer ul.social li{
  display: inline-block;
 }
+
+.my_style-border-bott{
+  border-bottom: 1px solid hsla(0,0%,100%,.5);
+  padding-bottom: 30px;
+}
+
+
 
 
 /* media query */
