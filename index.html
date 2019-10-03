@@ -11,7 +11,7 @@
   <body>
     <!-- header con navbar e container grande con sfondo -->
     <div class="container-fluid my_style-header">
-      <div class="row my_border">
+      <div class="row my_border visible-lg pos_fix">
         <div class="col-lg-6 visible-lg">
           <ul class="my_style-top-nav">
             <li>NEW</li>
@@ -27,7 +27,7 @@
           </ul>
         </div>
       </div>
-      <div class="row my_style-bot-nav visible-lg">
+      <div class="row my_style-bot-nav visible-lg pos_fix">
         <div class="col-lg-1 visible-lg">
           <img src="img/digitalocean_logo.png" alt="">
         </div>
@@ -44,26 +44,17 @@
         <div class="col-lg-offset-3 col-lg-2 visible-lg">
           <span>Sign up</span>
         </div>
-
-        <!-- <div class="col-lg-12 visible-lg">
-          <ul class="my_style-bot-nav">
-          <li><img src="img/digitalocean_logo.png" alt=""></li>
-          <li><a href="#" style="color:#031b4e">Products ▼</a></li>
-          <li><a href="#" style="color:#031b4e">Marketplace</a></li>
-          <li><a href="#" style="color:#031b4e">Customers</a></li>
-          <li><a href="#" style="color:#031b4e">Partners</a></li>
-          <li><a href="#" style="color:#031b4e">Community ▼</a></li>
-          <li><a href="#" style="color:#031b4e">Pricing</a></li>
-          <li>Sign up</li>
-          </ul>
-        </div> -->
       </div>
       <div class="row bg-header">
         <div class="col-xs-12">
-          <ul class="my_style-ul">
-            <li><img src="img\logo-bianco.png" alt="" class="white_logo"> </li>
-            <li><i class="fas fa-bars"></i></li>
-          </ul>
+          <div class="row my_style-mobile-nav">
+            <div class="col-xs-3">
+              <img src="img\logo-bianco.png" alt="" class="white_logo">
+            </div>
+            <div class="col-xs-offset-8 col-xs-1">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
           <div class="container">
             <div class="row my_padding-header">
               <div class="col-xs-12 col-md-6">

@@ -23,13 +23,36 @@ ul{
 
 /* header */
 
+.row.my_border{
+  padding:5px;
+  position:fixed;
+  top:0;
+  width: 100%;
+  background:white;
+
+}
+
+.pos_fix{
+  z-index: 10;
+}
+
+.my_style-bot-nav.pos_fix{
+  position:fixed;
+  top:42px;
+  left:0;
+  right:0;
+  border-top: 1px solid rgba(46, 46, 46, 0.64);
+  border-bottom: 1px solid rgba(46, 46, 46, 0.64);
+  background:white;
+}
+
 .col-lg-1.visible-lg img{
   width: 120%;
   vertical-align: middle;
 }
 
 .row.my_style-bot-nav{
-  padding:10px;
+  padding:15px;
 }
 
 .row.my_style-bot-nav ul{
@@ -43,36 +66,7 @@ color:#0069ff;
 padding: 5px 10px;
 border-radius: 3px;
 }
-/*
-.my_style-bot-nav{
-padding-top: 10px;
-}
 
-.my_style-bot-nav img{
-  width:100%;
-}
-
-.my_style-bot-nav li:first-child{
-  width:10%;
-}
-
-.my_style-bot-nav li:nth-child(2){
-  margin-left: 3%;
-}
-
-.my_style-bot-nav li:last-child{
-  margin-left:28%;
-  border:1px solid #0069ff;
-  color:#0069ff;
-  padding: 5px 10px;
-  border-radius: 3px;
-}
-
-.my_style-bot-nav li:not(:first-child),
-.my_style-bot-nav li:not(:last-child){
- font-size: 15px;
- padding-right: 13px;
-} */
 
 .my_border{
   border-bottom:1px solid grey;
@@ -81,6 +75,7 @@ padding-top: 10px;
 .bg-header{
   min-height: 700px;
   background-image: url(../img/bg-home-1-d54581d7.jpg);
+  margin-top: 90px;
 }
 
 .bg-header h1,
@@ -104,7 +99,7 @@ h3{
   padding-bottom: 20px;
 }
 
-.my_style-ul{
+.my_style-mobile-nav{
   display:none;
 }
 
@@ -435,51 +430,40 @@ text-decoration: none;
 /* media query */
 
 @media screen and (max-width:1199px){
-  .my_style-ul{
-    display:inline-block;
+
+  .bg-header{
+    margin-top:0;
   }
 
-  .my_style-ul li{
-    display:inline-block;
-    max-width: 20%;
-  }
+.my_style-mobile-nav{
+  display: inline-block;
+  width: 100%
+}
 
-  .my_style-ul li:first-child{
-    margin-right: 75%;
-  }
+.my_style-mobile-nav img{
+  width: 100%;
+}
 
-  .my_style-ul i{
+.my_style-mobile-nav i{
     font-size: 25px;
     vertical-align: middle;
-    display:inline-block;
     color:hsla(0,0%,100%,.5);
+    margin-top: 20%;
   }
 }
 
 @media screen and (max-width: 991px){
   /* header */
+
+
   .row.my_padding-header{
     margin-bottom: 50px;
   }
 
-  .my_style-ul{
+  .my_style-mobile-nav{
     display:inline-block;
   }
 
-  .my_style-ul li{
-    display:inline-block;
-    max-width: 20%;
-  }
-
-  .my_style-ul li:first-child{
-    margin-right: 70%;
-  }
-
-  .my_style-ul i{
-    font-size: 25px;
-    vertical-align: middle;
-    display:inline-block;
-  }
   /* /header */
 
   /* prima sezione */
