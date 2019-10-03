@@ -22,15 +22,32 @@ ul{
 }
 
 /* header */
-.row .col-lg-3 img{
-  width:40%;
+
+.my_style-bot-nav{
+padding-top: 10px;
 }
 
-
-.row .col-lg-6 ul li a{
-  line-height: 30px;
+.my_style-bot-nav img{
+  width:100%;
 }
 
+.my_style-bot-nav li:first-child{
+  width:10%;
+}
+
+.my_style-bot-nav li:nth-child(2){
+  margin-left: 3%;
+}
+
+.my_style-bot-nav li:last-child{
+  margin-left: 30%;
+}
+
+.my_style-bot-nav li:not(:first-child),
+.my_style-bot-nav li:not(:last-child){
+ font-size: 15px;
+ padding-right: 13px;
+}
 
 .my_border{
   border-bottom:1px solid grey;
