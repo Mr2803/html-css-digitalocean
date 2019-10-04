@@ -13,6 +13,76 @@ h3{
   padding-bottom: 20px;
 }
 
+/* layover */
+.container.my_margin_top{
+  margin-top: 50px;
+}
+
+.my_layover-style h4{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color:#031b4e;
+  font-weight: bold;
+}
+
+.my_layover-style img{
+  width:8%;
+  margin-bottom: 3%;
+}
+
+.my_layover-style ul{
+  display:inline-block;
+  vertical-align: middle;
+  width: 90%;
+  margin-left: -30px;
+  font-size: 17px;
+}
+
+.my_layover-style ul li a{
+  text-decoration: none;
+}
+
+.my_layover-style ul li:first-child a{
+ color:#031b4e;
+}
+
+.my_layover-style li:not(:first-child) a{
+color: rgba(3,27,78,.7)
+}
+
+.my_layover-style2 img{
+  width: 15%;
+}
+
+.my_layover-style2 ul li:first-child{
+  text-transform: uppercase;
+  color:#031b4e;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.my_layover-style2 ul li:first-child::before{
+  content:"";
+  background: url(../img/svg4.svg);
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  top:50%;
+  left: -12%;
+  transform: translate(-50%,-50%);
+}
+
+.my_marg-left{
+  margin-left: 20px;
+}
+
+
+/* layover */
+
 /* header */
 .my_style-header li {
   display:inline-block;
@@ -31,6 +101,12 @@ h3{
 .col-lg-offset-3.col-lg-3.visible-lg ul{
   margin-left: 26%;
   font-size: 12px;
+}
+
+.col-lg-6.visible-lg ul li{
+  padding-right: 7px;
+  vertical-align: -webkit-baseline-middle;;
+  font-weight: lighter;
 }
 
 .row.my_border{
