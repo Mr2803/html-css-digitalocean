@@ -27,12 +27,24 @@ h3{
   font-weight: bold;
 }
 
+.container-fluid.drop-glob li{
+  display:block;
+}
+
 .container-fluid.drop-glob{
   min-height: 400px;
+  display:none;
+  z-index: 20;
+}
+
+
+.drop-cont:hover .container-fluid.drop-glob{
+  display:block;
 }
 
 .my_bord-bot{
   border-bottom: 1px solid #e5e8ed;
+
 }
 
 .my_dropdown-style img{
