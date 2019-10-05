@@ -138,6 +138,36 @@ filter:invert(1);
 }
 /* dropdown */
 
+/* dropdown mobile */
+
+.row.top_row{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.row.top_row ul li{
+  margin-bottom: 7px;
+}
+
+.row.top_row ul li a{
+  color:#031B4E;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.row.top_row ul li:before{
+  content:"";
+  height: 30px;
+  width: 30px;
+  background: url(../img/svg4.svg);
+  display:inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+/* /dropdown mobile */
+
 /* header */
 .my_style-header li {
   display:inline-block;
