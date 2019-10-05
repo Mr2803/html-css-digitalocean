@@ -13,12 +13,13 @@ h3{
   padding-bottom: 20px;
 }
 
-/* layover */
-.container.my_margin_top{
+/* dropdown */
+.container.my_margin_top-bot{
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.my_layover-style h4{
+.my_dropdown-style h4{
   text-transform: uppercase;
   margin-bottom: 20px;
   font-size: 14px;
@@ -26,12 +27,20 @@ h3{
   font-weight: bold;
 }
 
-.my_layover-style img{
+.container-fluid.drop-glob{
+  min-height: 400px;
+}
+
+.my_bord-bot{
+  border-bottom: 1px solid #e5e8ed;
+}
+
+.my_dropdown-style img{
   width:8%;
   margin-bottom: 3%;
 }
 
-.my_layover-style ul{
+.my_dropdown-style ul{
   display:inline-block;
   vertical-align: middle;
   width: 90%;
@@ -39,23 +48,23 @@ h3{
   font-size: 17px;
 }
 
-.my_layover-style ul li a{
+.my_dropdown-style ul li a{
   text-decoration: none;
 }
 
-.my_layover-style ul li:first-child a{
+.my_dropdown-style ul li:first-child a{
  color:#031b4e;
 }
 
-.my_layover-style li:not(:first-child) a{
-color: rgba(3,27,78,.7)
+.my_dropdown-style li:not(:first-child) a{
+color: rgba(3,27,78,.7);
 }
 
-.my_layover-style2 img{
+.my_dropdown-style2 img{
   width: 15%;
 }
 
-.my_layover-style2 ul li:first-child{
+.my_dropdown-style2 ul li:first-child{
   text-transform: uppercase;
   color:#031b4e;
   font-weight: bold;
@@ -63,7 +72,11 @@ color: rgba(3,27,78,.7)
   position: relative;
 }
 
-.my_layover-style2 ul li:first-child::before{
+.my_dropdown-style2 li:not(:first-child) a{
+  color: rgba(3,27,78,.7);
+}
+
+.my_dropdown-style2 ul li:first-child::before{
   content:"";
   background: url(../img/svg4.svg);
   height: 20px;
@@ -76,12 +89,46 @@ color: rgba(3,27,78,.7)
   transform: translate(-50%,-50%);
 }
 
+.my_dropdown-style2 .bg_1 ul li:first-child::before{
+  background: url(../img/svg18.svg);
+}
+
+.my_dropdown-style2 .bg_2 ul li:first-child::before{
+background:url(../img/svg20.svg);
+}
+
+.my_dropdown-style2 .bg_3 ul li:first-child::before{
+background:url(../img/svg22.svg);
+filter:invert(1);
+}
+
+.my_dropdown-style2 .bg_4 ul li:first-child::before{
+background:url(../img/svg19.svg);
+filter:invert(1);
+}
+
+.my_dropdown-style2 .bg_5 ul li:first-child::before{
+background:url(../img/svg21.svg);
+filter:invert(1);
+}
+
 .my_marg-left{
   margin-left: 20px;
 }
 
+.row.my_bord-bot>.col-lg-12{
+  text-align: center;
+  min-height: 50px;
+  line-height: 45px;
+  font-size: 17px;
+  text-decoration: none;
 
-/* layover */
+}
+
+
+
+
+/* dropdown */
 
 /* header */
 .my_style-header li {
