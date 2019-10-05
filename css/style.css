@@ -32,11 +32,13 @@ h3{
 }
 
 .container-fluid.drop-glob{
-  min-height: 400px;
   display:none;
   z-index: 20;
 }
 
+.product{
+position:relative;
+}
 
 .drop-cont:hover .container-fluid.drop-glob{
   display:block;
@@ -44,7 +46,6 @@ h3{
 
 .my_bord-bot{
   border-bottom: 1px solid #e5e8ed;
-
 }
 
 .my_dropdown-style img{
@@ -128,7 +129,7 @@ filter:invert(1);
   margin-left: 20px;
 }
 
-.row.my_bord-bot>.col-lg-12{
+.row.all_product>.col-lg-12{
   text-align: center;
   min-height: 50px;
   line-height: 45px;
