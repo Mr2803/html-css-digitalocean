@@ -208,6 +208,20 @@ background: url(../img/svg11.svg);
 .row.bottom_row{
   padding:20px 0 20px;
 }
+
+.drop_glob-mob{
+  display:none;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.drop_glob-mob ul li{
+  display:block;
+}
+
+.drop_mob:hover .drop_glob-mob{
+  display: block;
+}
 /* /dropdown mobile */
 
 /* header */
