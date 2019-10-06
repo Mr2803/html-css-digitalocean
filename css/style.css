@@ -218,15 +218,25 @@ background: url(../img/svg11.svg);
 .drop_glob-mob{
   display:none;
   z-index: 999;
-  overflow: hidden;
 }
 
 .drop_glob-mob ul li{
   display:block;
 }
 
+.drop_mob{
+  position: relative;
+}
+
 .drop_mob:hover .drop_glob-mob{
   display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%,7%);
+  min-width: 90vw;
+  box-shadow: 0 10px 20px rgba(3,27,78,.2);
+  border-radius: 10px;
 }
 /* /dropdown mobile */
 
