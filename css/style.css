@@ -36,12 +36,19 @@ h3{
   z-index: 20;
 }
 
-.product{
+.drop-cont{
 position:relative;
 }
 
 .drop-cont:hover .container-fluid.drop-glob{
   display:block;
+  position:absolute;
+  width:105vw;
+  top:41px;
+  left:-207px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(3,27,78,.1);
+  border-top: 1px solid black;
 }
 
 .my_bord-bot{
