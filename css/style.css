@@ -697,4 +697,8 @@ text-decoration: none;
   .my_style-section4 img{
     max-width: 12%;
   }
+
+  .my_style-section2 img {
+    width: 10%;
+  }
 }
